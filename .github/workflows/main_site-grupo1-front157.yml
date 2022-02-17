@@ -53,4 +53,4 @@ jobs:
           app-name: 'site-grupo1-front157'
           slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_CC5AB693C3F740D1B8CE93EA07A80DDE }}
-          package: .
+          package: 'build'
